@@ -1,0 +1,124 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+} 
+h1{
+    color: #E20000;
+    font-size: 36px;
+}
+p{
+    font-size: 16px;
+    color: #6a6a6a;
+}
+.form-control{
+    border-radius: 16px;
+}
+textarea{
+    height: 150px;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 20px;}
+}
+#inicio .div-cohete{
+    height: 410px;
+    padding;
+}#inicio .cohete{
+    height: 400px;
+}
+#inicio .cohete:hover{
+    height: 410px;
+}
+footer{
+    color: white;
+    font-weight: 100;
+}
+footer a{
+    color: white;
+}
+.btn-rojo{
+    color: white;
+    background-color: #E20000;
+    border-radius: 20px ;
+    border: 0px;
+}
+.btn-rojo:hover{
+    color: white;
+    background-color: #370a6d;
+}
+.btn-blanco{
+    background-color: white;
+    color: #370a6d;
+    border-radius: 20px ;
+}
+.btn-blanco:hover{
+    background-color: #370a6d;
+    color: white;
+}
+#inicio .input-inicio p{
+    color: white;
+    font: size 18px;px;
+    border: 1px solid white;
+    border-radius: 60px;
+    font-weight: 600;
+}
+footer .fa-github {
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in {
+    color: white;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer .fa-whatsapp{
+    font-size: 30px;
+}
+.bloque-whatsapp{
+        background-color: #370a6d;
+        color: white;
+        width: 60px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        font-size: 30px;
+        text-align: center;
+        padding: 8px 0 15px 0;
+        right: 80px;
+        position: fixed;
+        bottom: 0px;
+}
+#contacto, #inicio{
+    background-image: url('../images/fondo-contacto.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos, #sobre-mi{
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+@media (max-width: 750px) {/* para mobile */
+  #inicio, #contacto{
+      background-image: url(../images/fondo-proyectos.png);
+  }
+  #inicio, #imput-home p{
+      color: #E20000;
+      border: 1px solid #E20000;
+  }
+  #contacto{
+      background-image: url(../images/fondo-proyectos.png);
+  }
+  footer a{
+      color: #E20000 ;
+  }
+}
