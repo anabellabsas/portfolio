@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body id="Proyectos">
+<body id="proyectos">
     <header class="container">
         <nav class="navbar navbar-expand-md ">
             <div class="container-fluid">
@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item pe-3">
-                            <a class="nav-link py-1" href="index.html">Inicio</a>
+                            <a class="nav-link py-1" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link py-1" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="active nav-link py-1" href="proyectos.html">Proyectos</a>
+                            <a class="active nav-link py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class pb-3>

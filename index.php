@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Proyectos</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -25,16 +25,16 @@
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
                         <li class="nav-item pe-3">
-                            <a class="nav-link py-1" href="index.html">Inicio</a>
+                            <a class="active nav-link py-1" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="active nav-link py-1" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link py-1" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="proyectos.html">Proyectos</a>
+                            <a class="nav-link py-1" href="proyectos.php">Proyectos</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link py-1" href="contacto.html">Contacto</a>
+                            <a class="nav-link px-3 py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
                     <div class pb-3>
@@ -46,33 +46,24 @@
     </header>
     <main class="container">
         <div class="row">
-            <div class="col-6">
-                <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
-                <p class="pb-sm-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae eveniet
-                    accusamus magnam consectetur dicta optio laborum numquam voluptate perspiciatis error sint assumenda
-                    nemo perferendis ad, voluptatibus laudantium reiciendis atque?</p>
-                <div>
-                    <div class pb-3>
-                        <button type="submit" id="btnEnviarmsj" name="btnEnviarmsj" class="btn-rojo">Enviar
-                            mensaje</button>
-                    </div>
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-6">
-
-                            </div>
-                        </div>
-                    </div>
-
+            <div class="col-12 mt-4 text-center div-cohete">
+                <a href="proyectos.html"><img src="images/cohete.svg" class="cohete"></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center pb-5">
+                <div class="input-inicio">
+                    <p class="p-1">Bienvenid@ a mi sitio web.</p>
                 </div>
             </div>
-
         </div>
-
-
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="proyectos.html" class="btn btn-blanco shadow">Conoce mis proyectos</a>
+            </div>
+        </div>
     </main>
-
-    <footer class="container fixed-bottom mb-5">
+    <footer class="container my-5">
         <div class="row mt-5 pb-3">
             <div class="col-12 col-sm-3 text-center text-sm-start">
                 <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>

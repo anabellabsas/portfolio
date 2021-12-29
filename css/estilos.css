@@ -26,6 +26,7 @@ nav .active{
 #inicio .div-cohete{
     height: 410px;
     padding;
+
 }#inicio .cohete{
     height: 400px;
 }
@@ -103,20 +104,25 @@ footer .fa-whatsapp{
     background-repeat: no-repeat;
 }
 #proyectos, #sobre-mi{
-    background-image: url(../images/fondo-proyectos.png);
+    background-image: url('../images/fondo-proyectos.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
+#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+    color: #E20000;
+
+}
 @media (max-width: 750px) {/* para mobile */
   #inicio, #contacto{
-      background-image: url(../images/fondo-proyectos.png);
-  }
-  #inicio, #imput-home p{
+      background-image: url('../images/fondo-proyectos.png');
+}
+  
+#inicio, #imput-home p{
       color: #E20000;
       border: 1px solid #E20000;
   }
   #contacto{
-      background-image: url(../images/fondo-proyectos.png);
+      background-image: url('../images/fondo-proyectos.png');
   }
   footer a{
       color: #E20000 ;
