@@ -59,7 +59,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <a href="proyectos.html" class="btn btn-blanco shadow">Conoce mis proyectos</a>
+                <a href="proyectos.php" class="btn btn-blanco shadow">Conoce mis proyectos</a>
             </div>
         </div>
     </main>
