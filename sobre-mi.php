@@ -173,7 +173,7 @@
                         <div class="col-2 p-5 my-auto d-none d-sm-block">
                         </div>
                         <div class="col-12 col-sm-10 p-3">
-                        <img src="images/sin-logo.png" class="img-fluid baw" title="certificado"> </div>
+                       <h2> <img src="images/sin-logo.png" class="img-fluid baw" title="certificado"> </div>  <h2>
                             <div>
                             <h3>Empleada Administrativa</h3>
                             <h4>Empresa de Ascensores</h4>

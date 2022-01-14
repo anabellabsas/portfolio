@@ -37,11 +37,9 @@
                             <a class="active nav-link px-3 py-1" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
-                    <div class pb-3>
-                        <button type="submit" id="btnDescargar" name="btnDescargar" class="btn-rojo py-1 px-3">Descargar
-                            mi
-                            CV</button>
-                    </div>
+                    <div class="d-inline">
+                    <a href="" class="btn btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
+                </div>
                 </div>
         </nav>
     </header>
