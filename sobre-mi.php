@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Proyectos</title>
+    <title>Sobre Mi</title>
 </head>
 
 <body id="sobre-mi">
@@ -56,7 +56,7 @@
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
-                    <img src="images/anabella.png" alt="Anabella Catanzaro" title="Anabella Catanzaro"
+                    <img src="images/ac.png" alt="Anabella Catanzaro" title="Anabella Catanzaro"
                         class="img-fluid img-circle">
                 </div>
             </div>
