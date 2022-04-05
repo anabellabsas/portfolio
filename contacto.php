@@ -1,4 +1,7 @@
+<<<<<<< HEAD:contacto.php
 
+=======
+>>>>>>> df5d9d5cbbfdab96d99f73b133550b58d5b0210a:contacto.html
 <!DOCTYPE html>
 <html lang="es">
 
@@ -7,6 +10,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -91,7 +96,7 @@
             <div class="col-3"><a href="to:anabella.bsas@hotmail.com">anabella.bsas@hotmail.com</a></div>
             <div class="bloque-whatsapp">
                 <a href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
-            </div>
+                
     </footer>
 </body>
 

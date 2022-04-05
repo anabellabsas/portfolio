@@ -8,6 +8,8 @@
     <title>Proyectos</title>
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
         rel="stylesheet">
@@ -58,7 +60,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <a href="proyectos.php" class="btn btn-blanco shadow">Conoce mis proyectos</a>
+                <a href="proyectos.html" class="btn btn-blanco shadow">Conoce mis proyectos</a>
             </div>
         </div>
     </main>

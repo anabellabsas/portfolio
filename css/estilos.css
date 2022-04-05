@@ -158,3 +158,11 @@ footer .fa-whatsapp{
       color: #E20000 ;
   }
 }
+@media (max-width: 750px) {
+    #contacto{
+        background-image: url('../images/fondo-proyectos.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+}
+}

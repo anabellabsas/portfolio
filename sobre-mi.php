@@ -52,7 +52,7 @@
                     <p class="pb-sm-5">Estoy en constante busqueda de adquirir nuevos conocimientos tanto en el area laboral como personal, 
                         dispuesta a trabajar en equipo o sola si asi es requerido, con gran capacidad de organizacion y administracion del tiempo.
                        </p>
-                    <a href="contacto.php" class="btn btn-rojo">Enviar mensaje</a>
+                    <a href="contacto.html" class="btn btn-rojo">Enviar mensaje</a>
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
