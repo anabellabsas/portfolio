@@ -18,25 +18,23 @@ $pg = "sobre-mi";
         rel="stylesheet">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Sobre Mi</title>
+    <title>Proyectos</title>
 </head>
 
 <body id="sobre-mi">
-  <?php include_once "header.php"; ?>
-
- <main>
+<?php include_once("header.php"); ?>
+    <main>
         <div class="container">
             <div class="row">
                 <div class="col-sm-5 col-12 mt-4">
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
-                    <p class="pb-sm-5">Estoy en constante busqueda de adquirir nuevos conocimientos tanto en el area laboral como personal, 
-                        dispuesta a trabajar en equipo o sola si asi es requerido, con gran capacidad de organizacion y administracion del tiempo.
-                       </p>
-                    <a href="contacto.html" class="btn btn-rojo">Enviar mensaje</a>
+                    <p class="pb-sm-5">Estoy en constante busqueda de adquirir nuevos conocimientos tanto en el area laboral como personal, dispuesta a trabajar en equipo, 
+                 con gran capacidad de organizacion y administracion del tiempo.</p>
+                    <a href="contacto.php" class="btn btn-rojo">Enviar mensaje</a>
 
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
-                    <img src="images/ac.png" alt="Anabella Catanzaro" title="Anabella Catanzaro"
+                <img src="images/ac.png" alt="Anabella Catanzaro" title="Anabella Catanzaro"
                         class="img-fluid img-circle">
                 </div>
             </div>
@@ -142,28 +140,30 @@ $pg = "sobre-mi";
         <section id="experiencia" class="container">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
-                    <h2><i class="fas fa-briefcase"></i>Experiencia laboral</h2>
+                    <h2><i class="fas fa-briefcase"></i> Experiencia laboral</h2>
                 </div>
             </div>
             <div class="row shadow bg-white rounded">
-                    </div>
-                </div>
+
                 <div class="col-12">
                     <div class="row">
                         <div class="col-2 p-5 my-auto d-none d-sm-block">
+                            <img src="images/sin-logo.png" class="img-fluid baw" title="certificado">
                         </div>
-                        <div class="col-12 col-sm-10 p-3">
-                       <h2> <img src="images/sin-logo.png" class="img-fluid baw" title="certificado"> </div>  <h2>
-                            <div>
+                        <div class="col-12- col-sm-10 p-3">
                             <h3>Empleada Administrativa</h3>
-                            <h4>Empresa de Ascensores</h4>
-                            <h5>2011 hasta la fecha</h5>
-                            <p>Encargada de la tramitacion de la correspondencia de la empresa, atencion de llamados telefonicos,
-                                organizacion de los documentos, cobranzas, gestion de la agenda y archivo de papeles</p>
+                            <h4>Empresa de mantenimiento de Ascensores </h4>
+                            <h5>Agosto 2012 | Hasta la fecha</h5>
+                            <p>• Atención al cliente <br>
+                               • Encargada de la tramitación de la correspondencia <br>
+                               • Atención de llamados telefónicos <br>
+                               • Organización de los documentos <br>
+                               • Gestión de la agenda y archivo de papeles <br>
+                               • Cobranzas y tramites bancarios</p>
                         </div>
                     </div>
                 </div>
-            </div>
+            
         </section>
         <section id="formacion" class="container">
             <div class="row">
@@ -175,20 +175,59 @@ $pg = "sobre-mi";
                 <div class="col-12 col-sm-6">
                     <div class="row">
                         <div class="col-2 py-3 my-auto d-none d-sm-block">
-                <div class="col-12 col-sm-6">
-                    <div class="row">
-                        <div class="col-2 py-3 my-auto d-none d-sm-block">
-                            <img src="images/sin-logo.png" class="img-fluid baw" title="">
+                        <img src="images/sin-logo.png" class="img-fluid baw" title="certificado">
                         </div>
                         <div class="col-12- col-sm-10 p-3">
-                            <h3>Instituto Secundario Mariano Moreno</h3>
-                            <h4>Bachiller en economia y gestion de las organizacones</h4>
-                            <p></p>
+                            <h3>Secundario</h3>
+                            <h4>instituto Mariano Moreno | 2009</h4>
+                            <h5>Bachiller en economia y gestion de las organizaciones</h5>
                         </div>
                     </div>
                 </div>
+        </section>
+        <section id="formacion" class="container mb-5">
+            <div class="row">
+                <div class="col-12 pt-5 pb-4">
+                    <h2><i class="fas fa-graduation-cap"></i> Cursos y Capacitaciones</h2>
+                </div>
             </div>
-            </div>
+            <div class="row shadow bg-white rounded p-1">
+                <div class="col-12 col">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                        <img src="images/ba-multiplica.jpeg" class="img-fluid baw" title="certificado">
+                        </div>
+                        <div class="col-12- col-sm-10 p-5">
+                            <h3>BA Multiplica</h3>
+                            <h4>Gobierno de la Ciudad de Buenos Aires</h4>
+                            <h5>Herramientas Digitales</h5>
+                            <p>• Microsoft Teams y trabajo colaborativo <br>
+                               • Microsoft Powerpoint y desarrollo del pensamiento creativo <br>
+                               • Microsoft Excel y análisis de datos <br>
+                               • Linkedin y búsqueda de empleo <br>
+                               • Igualdad de género en ámbitos laborales <br>
+                               • Taller de reflexión sobre la construcción social de la problemática del consumo <br>
+                               • Empleo verde y sustentabilidad en el ámbito laboral
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-2 py-3 my-auto d-none d-sm-block">
+                        <img src="images/amia.png" class="img-fluid baw" title="certificado">
+                        </div>
+                        <div class="col-12- col-sm-10 p-5">
+                            <h3>Cursos AMIA</h3>
+                            <h4>AMIA Servicio de empleos</h4>
+                            <h5>Autogestionado</h5>
+                            <p>• Microsoft Word 2016 <br>
+                               • Microsoft Excel 2016 <br>
+                               • Microsoft Power Point 2016
+                        </p>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section id="idiomas">
             <div class="container">
@@ -201,21 +240,22 @@ $pg = "sobre-mi";
                             <div class="col-8 p-5">
                                 <h2>IDIOMAS</h2>
                                 <ul>
-                                    <li>Español - Nativo</li>
+                                <li>ESPAÑOL - Nativo</li>
+                                <li>INGLÉS - Basico</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-12">
                         <div class="row ml-sm-2 bg-white card-idioma shadow ms-sm-1">
-                            <div class="col-4 text-center">
-                                <i class="fas fa-star" ></i>
+                            <div class="col-4 text-center card">
+                                <i class="fas fa-star"></i>
                             </div>
                             <div class="col-8 p-5">
                                 <h2>HOBBIES</h2>
                                 <ul>
-                                    <li>Pintura</li>
-                                    <li>Running</li>
+                                   <li>Pintura</li>
+                                   <li>Running</li>
                                 </ul>
                             </div>
                         </div>
@@ -233,11 +273,14 @@ $pg = "sobre-mi";
                             class="fab fa-linkedin-in"></i></a>
                 </div class="container"> 
                 <div class="col-3">Sponsor<a href="https:/depcesuite.com" target="blank">DePC Suite</a></div>
-                <div class="col-3"><a href="to:anabella.bsas@hotmail.com">anabella.bsas@hotmail.com</a></div>
+                <div class="col-3"><a href="to:anabella.bsas@gmail.com">anabella.bsas@gmail.com</a></div>
                 <div class="bloque-whatsapp">
                     <a href="http://www.whatsapp.com"><i class="fab fa-whatsapp"></i></a>
                 </div>
         </footer>
-    </body>
-    
-    </html>
+        </div>
+    </main>
+   
+</body>
+
+</html>
