@@ -1,80 +1,98 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
-} 
-h1{
+}
+
+h1 {
     color: #E20000;
     font-size: 36px;
 }
-p{
+
+p {
     font-size: 16px;
     color: #6a6a6a;
 }
-.form-control{
+
+.form-control {
     border-radius: 16px;
 }
-textarea{
+
+textarea {
     height: 150px;
 }
-nav .nav-link{
+
+nav .nav-link {
     color: #282828;
 }
-nav .active{
+
+nav .active {
     border: 1px solid #E20000;
-    border-radius: 20px;}
+    border-radius: 20px;
 }
-#inicio .div-cohete{
+
+#inicio .div-cohete {
     height: 410px;
     padding;
+}
 
-}#inicio .cohete{
+#inicio .cohete {
     height: 400px;
 }
-#inicio .cohete:hover{
+
+#inicio .cohete:hover {
     height: 410px;
 }
-footer{
+
+footer {
     color: white;
     font-weight: 100;
 }
-footer a{
+
+footer a {
     color: white;
 }
-.btn-rojo{
+
+.btn-rojo {
     color: white;
     background-color: #E20000;
-    border-radius: 20px ;
+    border-radius: 20px;
     border: 0px;
 }
-.btn-rojo:hover{
+
+.btn-rojo:hover {
     color: white;
     background-color: #370a6d;
 }
-.btn-blanco{
+
+.btn-blanco {
     background-color: white;
     color: #370a6d;
-    border-radius: 20px ;
+    border-radius: 20px;
 }
-.btn-blanco:hover{
+
+.btn-blanco:hover {
     background-color: #370a6d;
     color: white;
 }
-#inicio .input-inicio p{
+
+#inicio .input-inicio p {
     color: white;
-    font: size 18px;px;
+    font: size 18px;
+    px;
     border: 1px solid white;
     border-radius: 60px;
     font-weight: 600;
 }
+
 footer .fa-github {
     font-size: 30px;
     color: white;
 }
+
 #sobre-mi .footer .fa-github {
     font-size: 30px;
     color: #E20000;
 }
-
 
 footer .fa-linkedin-in {
     color: white;
@@ -88,78 +106,143 @@ footer .fa-linkedin-in {
     border-radius: 80px;
     margin: 0 8px;
 }
-footer .fa-whatsapp{
+
+footer .fa-whatsapp {
     font-size: 30px;
 }
-#experiencia, #experiencia {
-    color: #370A6D;
- }
- #experiencia, #formacion {
-     font-weight: 400;
-     font-size: 24px
- }
- #formacion, #formacion{
-     color: #E20000;
- }
- #experiencia, #formacion{
-     color: #6A6A6A;
-     font-size: 18px;
-     font-weight: 600;
- 
- }
- #experiencia, #formacion{
-     font-size: 17px;
-     
- }
- #experiencia, #formacion{
-     color: #6A6A6A;
-     font-size: 14px;
- }
-.bloque-whatsapp{
-        background-color: #370a6d;
-        color: white;
-        width: 60px;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
-        font-size: 30px;
-        text-align: center;
-        padding: 8px 0 15px 0;
-        right: 80px;
-        position: fixed;
-        bottom: 0px;
+
+#experiencia,
+#experiencia {
+    color: #E20000;
 }
-#contacto, #inicio{
+
+#experiencia,
+#formacion {
+    font-weight: 400;
+    font-size: 24px7;
+    color: #E20000;
+}
+
+#formacion,
+#formacion {
+    color: #E20000;
+}
+
+#experiencia,
+#formacion {
+    color: #E20000;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#experiencia,
+#formacion {
+    font-size: 17px;
+}
+
+#experiencia,
+#formacion {
+    color: #E20000;
+    font-size: 14px;
+}
+
+.bloque-whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+
+#sobre-mi {
+    height: 182px;
+}
+
+#idiomas .card-idioma {
+    border-radius: 15px;
+}
+
+#idiomas .card {
+    background-color: #370A6D;
+    border-radius: 15px;
+    padding: 40px 0;
+}
+
+#idiomas {
+    background-color: #eee;
+}
+
+#idiomas h2 {
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+#idiomas ul {
+    padding: 0px;
+    font-size: 14px;
+    color: #282828;
+    list-style-type: none;
+}
+
+#idiomas .fas {
+    font-size: 100px;
+    color: white;
+}
+
+#contacto,
+#inicio {
     background-image: url('../images/fondo-contacto.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#proyectos, #sobre-mi{
+
+#proyectos,
+#sobre-mi {
     background-image: url('../images/fondo-proyectos.png');
     background-size: 100%;
     background-repeat: no-repeat;
 }
-#proyectos footer, #proyectos footer a, #sobre-mi footer, #sobre-mi footer a{
+
+#proyectos footer,
+#proyectos footer a,
+#sobre-mi footer,
+#sobre-mi footer a {
     color: #E20000;
 
 }
-@media (max-width: 750px) {/* para mobile */
-  #inicio, #contacto{
-      background-image: url('../images/fondo-proyectos.png');
-}
-  
-#inicio, #imput-home p{
-      color: #E20000;
-      border: 1px solid #E20000;
-  }
-  #contacto{
-      background-image: url('../images/fondo-proyectos.png');
-  }
-  footer a{
-      color: #E20000 ;
-  }
-}
+
 @media (max-width: 750px) {
-    #contacto{
+
+    /* para mobile */
+    #inicio,
+    #contacto {
+        background-image: url('../images/fondo-proyectos.png');
+    }
+
+    #inicio,
+    #imput-home p {
+        color: #E20000;
+        border: 1px solid #E20000;
+    }
+
+    #contacto {
+        background-image: url('../images/fondo-proyectos.png');
+    }
+
+    footer a {
+        color: #E20000;
+    }
+}
+
+@media (max-width: 750px) {
+    #contacto {
         background-image: url('../images/fondo-proyectos.png');
         background-repeat: no-repeat;
         background-size: 100%;
